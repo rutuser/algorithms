@@ -52,18 +52,3 @@ class MyHashMap<T> {
 	}
 }
 
-const hashTable = new MyHashMap<number>();
-
-hashTable.set("firstName", 0);
-
-hashTable.set("lastName", 1);
-hashTable.set("age", 2);
-hashTable.set("bob", 3);
-console.log(hashTable.get("firstName"));
-console.log(hashTable.get("lastName"));
-console.log(hashTable.get("age"));
-console.log(hashTable.get("bob"));
-
-{
-	firstName: 0;
-}
